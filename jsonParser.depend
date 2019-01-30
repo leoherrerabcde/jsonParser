@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1548876022 source:/home/pi/Documents/source/jsonParser/main.cpp
+	<iostream>
+	"JsonParser.h"
+
+1548876185 /home/pi/Documents/source/jsonParser/JsonParser.h
+	"rapidjson/document.h"
+	"rapidjson/writer.h"
+	"rapidjson/stringbuffer.h"
+	"rapidjson/prettywriter.h"
+	<cstdio>
+	<iostream>
+	<iostream>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<iterator>
+	<utility>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/allocators.h
+	"rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/msinttypes/stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/msinttypes/inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/encodings.h
+	"rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/memorystream.h
+	"stream.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/stack.h
+	"../allocators.h"
+	"swap.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/swap.h
+	"../rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+	<climits>
+	<limits>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/ieee754.h
+	"../rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/diyfp.h
+	"../rapidjson.h"
+	<limits>
+	<intrin.h>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/pow10.h
+	"../rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/error/error.h
+	"../rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/strfunc.h
+	"../stream.h"
+	<cwchar>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/writer.h
+	"stream.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strfunc.h"
+	"internal/dtoa.h"
+	"internal/itoa.h"
+	"stringbuffer.h"
+	<new>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/dtoa.h
+	"itoa.h"
+	"diyfp.h"
+	"ieee754.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/internal/itoa.h
+	"../rapidjson.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/stringbuffer.h
+	"stream.h"
+	"internal/stack.h"
+	<utility>
+	"internal/stack.h"
+
+1548875590 /home/pi/Documents/source/jsonParser/rapidjson/prettywriter.h
+	"writer.h"
+
+1548876172 source:/home/pi/Documents/source/jsonParser/JsonParser.cpp
+	"JsonParser.h"
+
