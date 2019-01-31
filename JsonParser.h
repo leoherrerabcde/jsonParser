@@ -19,6 +19,8 @@ class JsonParser
         static int rapidJsontest1();
         static int rapidJsontest2();
 
+        bool getFrame(std::string& strBuffer);
+
     protected:
 
     private:

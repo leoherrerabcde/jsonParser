@@ -71,6 +71,9 @@
 		<Unit filename="rapidjson/stream.h" />
 		<Unit filename="rapidjson/stringbuffer.h" />
 		<Unit filename="rapidjson/writer.h" />
+		<Unit filename="rapidjsonTest.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />
