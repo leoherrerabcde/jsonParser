@@ -54,12 +54,17 @@ JsonParser::~JsonParser()
 
 void JsonParser::loadPlaneText(const std::string& strPlaneText)
 {
+    /*if (m_chPlainText)
+    {
+        delete [] m_chPlainText;
+        m_chPlainText = NULL;
+    }
     m_chPlainText = new char[strPlaneText.length()+1];
     memcpy(m_chPlainText, strPlaneText.c_str(),strPlaneText.length());
     m_iPlainTextSize = strPlaneText.length();
     *(m_chPlainText+m_iPlainTextSize) = 0x00;
-    m_bDocJsoReady = !m_docJson.Parse(m_chPlainText).HasParseError();
-
+    m_bDocJsoReady = !m_docJson.Parse(m_chPlainText).HasParseError();*/
+    m_bDocJsoReady = !m_docJson.Parse(strPlaneText.c_str()).HasParseError();
 }
 
 void JsonParser::createIdTable()
