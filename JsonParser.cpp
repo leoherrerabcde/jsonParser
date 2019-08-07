@@ -1,8 +1,9 @@
 #include "JsonParser.h"
 
 
-#include "SCCFileManager.h"
-#include "device.h"
+#include "../main_control/SCCFileManager.h"
+//#include "../main_control/"
+#include "../main_control/device.h"
 
 #include <fstream>
 
